@@ -4,22 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Computer Peripheral | Rheyden Howe</title>
+    <title>Mouse and Keyboard Warehouse | Rheyden Howe</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <!-- Linking the css style sheet to the page-->
   </head>
   <body>
     <header>
       <h1>
-        <a class="heading-link" href="index.html">Computer Peripheral</a>
+        <a class="heading-link" href="index.html"
+          >Mouse and Keyboard Warehouse</a
+        >
+        <!-- Heading that has a link back to the main page-->
       </h1>
     </header>
     <nav>
+      <!-- Nav Bar linking to the other pages-->
       <ul>
         <li><a class="nav-link" href="index.html">Home</a></li>
+        <!-- Nav bar links to the other pages-->
         <li><a class="nav-link" href="keyboard.html">Keyboard</a></li>
         <li><a class="nav-link" href="mouse.html">Mouse</a></li>
         <li><a class="nav-link" href="contact.html">Contact</a></li>
@@ -36,11 +38,14 @@
           <th>Rating</th>
         </tr>
         <tbody id="keyboard-body"></tbody>
+        <!-- used by the js file to identify where to put the information from the json file and display it in the table-->
       </table>
       <br />
       <div id="review-container">
+        <!-- container to hold the form-->
         <form id="review-form">
           <fieldset>
+            <!-- declaring the names of the labels and the input the type they will use -->
             <legend>Speak Your Mind</legend>
             <label for="name">Name:</label>
             <br />
@@ -57,9 +62,13 @@
       </div>
       <br />
       <div id="review-message"></div>
+      <!-- when the person makes a review, gives the page a place to display the users name email date and time-->
     </section>
-    <footer>Copyright © Computer Peripheral | Rheyden Howe</footer>
+    <footer>Copyright © Mouse and Keyboard Warehouse | Rheyden Howe</footer>
+    <!-- used for copyright reasons :) -->
     <script src="./assets/js/review.js"></script>
+    <!-- importing the js file so the review form works and can be displayed used-->
     <script src="./assets/js/keyboard.js"></script>
+    <!-- importing another js file so the mouses can be displayed-->
   </body>
 </html>
