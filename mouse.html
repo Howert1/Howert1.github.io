@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Computer Peripheral | Rheyden Howe</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        <a class="heading-link" href="index.html">Computer Peripheral</a>
+      </h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="keyboard.html">Keyboard</a></li>
+        <li><a class="nav-link" href="mouse.html">Mouse</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h2>Mouse</h2>
+      <table>
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Rating</th>
+        </tr>
+        <tbody id="mouse-body"></tbody>
+      </table>
+      <br />
+      <div id="review-container">
+        <form id="review-form">
+          <fieldset>
+            <legend>Speak Your Mind</legend>
+            <label for="name">Name:</label>
+            <br />
+            <input type="text" name="name" id="review-name" />
+            <br />
+            <label for="comment">Comment:</label>
+            <br />
+            <textarea type="text" name="comment" id="review-comment"></textarea>
+            <br />
+            <input type="button" value="Submit" id="review-submit" />
+          </fieldset>
+        </form>
+        <br />
+      </div>
+      <br />
+      <div id="review-message"></div>
+    </section>
+    <footer>Copyright © Computer Peripheral | Rheyden Howe</footer>
+    <script src="./assets/js/review.js"></script>
+    <script src="./assets/js/mouse.js"></script>
+  </body>
+</html>

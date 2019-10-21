@@ -1,0 +1,32 @@
+[
+  {
+    "image": "./assets/img/m1.jpg",
+    "name": "Razer deathadder elite",
+    "description": "Fan Favourite Mouse! Fit for all your gaming needs",
+    "price": "100.00"
+  },
+  {
+    "image": "./assets/img/m2.jpg",
+    "name": "Logitech MX ergo Advanced",
+    "description": "20% less muscular strain than regular mouses",
+    "price": "150.00"
+  },
+  {
+    "image": "./assets/img/m3.jpg",
+    "name": "Logitech g502 Hero",
+    "description": "Enjoy this Customisable gaming mouse made for optimal gaming performance",
+    "price": "129.99"
+  },
+  {
+    "image": "./assets/img/m4.jpg",
+    "name": "E-Blue Cobra II",
+    "description": "Enjoy this very cheap mouse with RGB LIGHTING",
+    "price": "28.99"
+  },
+  {
+    "image": "./assets/img/m5.jpg",
+    "name": "Cooler Mater MarsterMouse CM310",
+    "description": "This Dependable Dynamic mouse offers high grade gaming potential",
+    "price": "79.99"
+  }
+]

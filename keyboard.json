@@ -1,0 +1,32 @@
+[
+  {
+    "image": "./assets/img/1.jpg",
+    "name": "Logitech MK345 Wireless",
+    "description": "Enjoy an awesome 3-year keyboard and 18-month mouse battery life!",
+    "price": "78.99"
+  },
+  {
+    "image": "./assets/img/2.jpg",
+    "name": "Cooler Master Devastator III",
+    "description": "Enjoy an awesome 3-year keyboard and 18-month mouse battery life!",
+    "price": "78.99"
+  },
+  {
+    "image": "./assets/img/3.jpg",
+    "name": "Logitech G213 Prodigy",
+    "description": "1-Year Hardware Warranty",
+    "price": "78.99"
+  },
+  {
+    "image": "./assets/img/4.jpg",
+    "name": "E-Blue Mechanical-Sense RGB",
+    "description": "Enjoy the benifets of RGB",
+    "price": "78.99"
+  },
+  {
+    "image": "./assets/img/5.jpg",
+    "name": "Razer Cynosa Chroma",
+    "description": "Individually customizable backlit keys",
+    "price": "78.99"
+  }
+]
